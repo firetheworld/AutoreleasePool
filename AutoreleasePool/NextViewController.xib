@@ -27,6 +27,14 @@
                         <action selector="junmToVC:" destination="-1" eventType="touchUpInside" id="Veq-Q5-a9f"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fE-bX-KxI">
+                    <rect key="frame" x="152" y="366" width="79" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="JumpToSec"/>
+                    <connections>
+                        <action selector="junmToSecVC:" destination="-1" eventType="touchUpInside" id="sKY-Tt-ery"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </view>

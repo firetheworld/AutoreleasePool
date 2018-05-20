@@ -53,5 +53,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--St Sec View Controller-->
+        <scene sceneID="Z75-yA-Q0J">
+            <objects>
+                <viewController storyboardIdentifier="StSecViewController" id="Xpd-aI-jHI" customClass="StSecViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KTa-BV-hTP"/>
+                        <viewControllerLayoutGuide type="bottom" id="thP-ST-a6I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b0E-Lq-YJW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ovl-gF-rLb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="846" y="95"/>
+        </scene>
     </scenes>
 </document>

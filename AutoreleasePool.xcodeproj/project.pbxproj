@@ -15,6 +15,7 @@
 		46E3881420B173150069CC4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E3881320B173150069CC4D /* main.m */; };
 		46E3881D20B176610069CC4D /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E3881B20B176610069CC4D /* NextViewController.m */; };
 		46E3881E20B176610069CC4D /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46E3881C20B176610069CC4D /* NextViewController.xib */; };
+		46E3882120B17BC50069CC4D /* StSecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E3882020B17BC50069CC4D /* StSecViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		46E3881A20B176610069CC4D /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
 		46E3881B20B176610069CC4D /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		46E3881C20B176610069CC4D /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		46E3881F20B17BC50069CC4D /* StSecViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StSecViewController.h; sourceTree = "<group>"; };
+		46E3882020B17BC50069CC4D /* StSecViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StSecViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 				46E3881B20B176610069CC4D /* NextViewController.m */,
 				46E3881C20B176610069CC4D /* NextViewController.xib */,
 				46E3880A20B173120069CC4D /* Main.storyboard */,
+				46E3881F20B17BC50069CC4D /* StSecViewController.h */,
+				46E3882020B17BC50069CC4D /* StSecViewController.m */,
 				46E3880D20B173140069CC4D /* Assets.xcassets */,
 				46E3880F20B173140069CC4D /* LaunchScreen.storyboard */,
 				46E3881220B173150069CC4D /* Info.plist */,
@@ -152,6 +157,7 @@
 			files = (
 				46E3880920B173120069CC4D /* ViewController.m in Sources */,
 				46E3881D20B176610069CC4D /* NextViewController.m in Sources */,
+				46E3882120B17BC50069CC4D /* StSecViewController.m in Sources */,
 				46E3881420B173150069CC4D /* main.m in Sources */,
 				46E3880620B173120069CC4D /* AppDelegate.m in Sources */,
 			);

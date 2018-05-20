@@ -45,6 +45,15 @@ __weak id nextReference = nil;
     NSLog(@"junmToVC");
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     UIViewController *vc = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)junmToSecVC:(id)sender {
+    NSLog(@"junmToSecVC");
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *vc = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"StSecViewController"];
+    
     [self.navigationController pushViewController:vc animated:YES];
 }
 @end

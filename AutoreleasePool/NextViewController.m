@@ -16,6 +16,7 @@
 
 __weak id nextReference = nil;
 
+#pragma mark - View Life Cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -36,5 +37,14 @@ __weak id nextReference = nil;
 
 - (void)dealloc {
     NSLog(@"dealloc nextReference: %@", nextReference);
+}
+
+#pragma mark - Action
+
+- (IBAction)junmToVC:(id)sender {
+    NSLog(@"junmToVC");
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *vc = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 @end

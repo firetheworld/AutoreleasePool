@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NextViewController.h"
 
 @interface ViewController ()
 
@@ -14,16 +15,33 @@
 
 @implementation ViewController
 
+__weak id reference = nil;
+
+#pragma mark - View Life Cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *str = [NSString stringWithFormat:@"reference"];
+    reference = str;
+    NSLog(@"viewDidLoad reference: %@", reference);
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"viewWillAppear reference: %@", reference);
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    NSLog(@"viewDidAppear reference: %@", reference);
+}
+
+#pragma mark - Action
+
+- (IBAction)jumpToNext:(id)sender {
+    NSLog(@"jumpToNext");
+    NextViewController *vc = [[NextViewController alloc] initWithNibName:@"NextViewController" bundle:nil];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 @end

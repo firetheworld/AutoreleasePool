@@ -13,6 +13,8 @@
 		46E3880E20B173140069CC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E3880D20B173140069CC4D /* Assets.xcassets */; };
 		46E3881120B173140069CC4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E3880F20B173140069CC4D /* LaunchScreen.storyboard */; };
 		46E3881420B173150069CC4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E3881320B173150069CC4D /* main.m */; };
+		46E3881D20B176610069CC4D /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E3881B20B176610069CC4D /* NextViewController.m */; };
+		46E3881E20B176610069CC4D /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46E3881C20B176610069CC4D /* NextViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		46E3881020B173140069CC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46E3881220B173150069CC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46E3881320B173150069CC4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46E3881A20B176610069CC4D /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		46E3881B20B176610069CC4D /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		46E3881C20B176610069CC4D /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				46E3880520B173120069CC4D /* AppDelegate.m */,
 				46E3880720B173120069CC4D /* ViewController.h */,
 				46E3880820B173120069CC4D /* ViewController.m */,
+				46E3881A20B176610069CC4D /* NextViewController.h */,
+				46E3881B20B176610069CC4D /* NextViewController.m */,
+				46E3881C20B176610069CC4D /* NextViewController.xib */,
 				46E3880A20B173120069CC4D /* Main.storyboard */,
 				46E3880D20B173140069CC4D /* Assets.xcassets */,
 				46E3880F20B173140069CC4D /* LaunchScreen.storyboard */,
@@ -129,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46E3881120B173140069CC4D /* LaunchScreen.storyboard in Resources */,
+				46E3881E20B176610069CC4D /* NextViewController.xib in Resources */,
 				46E3880E20B173140069CC4D /* Assets.xcassets in Resources */,
 				46E3880C20B173120069CC4D /* Main.storyboard in Resources */,
 			);
@@ -142,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46E3880920B173120069CC4D /* ViewController.m in Sources */,
+				46E3881D20B176610069CC4D /* NextViewController.m in Sources */,
 				46E3881420B173150069CC4D /* main.m in Sources */,
 				46E3880620B173120069CC4D /* AppDelegate.m in Sources */,
 			);
@@ -286,6 +296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54LMN39WV7;
 				INFOPLIST_FILE = AutoreleasePool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54LMN39WV7;
 				INFOPLIST_FILE = AutoreleasePool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
